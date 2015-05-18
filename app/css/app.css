@@ -29,11 +29,9 @@
   padding: 0;
 }
 
-.fade-answer {
-  -webkit-transition:all linear 1s;
-  transition:all linear 1s;
-}
-
-.fade-answer.ng-hide {
-  opacity:0;
+#answer {
+  min-height: 66px;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }

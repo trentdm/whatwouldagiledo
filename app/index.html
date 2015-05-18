@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head> <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>What Would Agile Do?</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
-  <link rel="stylesheet" href="bower_components/angular/angular-csp.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.min.css" type="text/css">
   <link rel="stylesheet" href="css/creative.css" type="text/css">
-  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="css/app.css">
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -25,7 +23,302 @@
 </head>
 <body id="page-top">
 
-  <ng-view></ng-view>
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">What Would Agile Do?</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="page-scroll" href="#about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#manifesto">Manifesto</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#recommendations">Recommendations</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="header-content">
+      <div class="header-content-inner">
+
+        <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>What Would Agile Do?</h1>
+        <hr>
+        <h2 id="answer"></h2>
+        <hr>
+        <a href="#page-top" class="btn btn-primary btn-xl page-scroll" id="getAnswer">What else &raquo;</a>
+      </div>
+    </div>
+  </header>
+
+  <aside class="bg-primary">
+    <div class="container text-center">
+      <div class="call-to-action">
+        <h2>Looking for more resources to help you get started?</h2>
+        <a href="#recommendations" class="btn btn-default btn-xl wow tada">See recommendations &raquo;</a>
+      </div>
+    </div>
+  </aside>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Understanding Agile</h2>
+          <hr class="primary">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-code-fork wow bounceIn text-primary"></i>
+            <h3>A flexible approach</h3>
+            <p class="text-muted">Let your requirements allow for product discovery and improvement throughout a product's lifecycle!</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".1s"></i>
+            <h3>Sustainability</h3>
+            <p class="text-muted">Happy teams make better software. Give them the resources and influence to make a great product, and they will!</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-diamond wow bounceIn text-primary" data-wow-delay=".3s"></i>
+            <h3>Foster a stronger team</h3>
+            <p class="text-muted">Agile builds stronger, more naturally integrated and involved teams.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="service-box">
+            <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".2s"></i>
+            <h3>Faster delivery</h3>
+            <p class="text-muted">Get your product to market faster and outpace the competition!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="no-padding" id="recommendations">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Book Recommendations</h2>
+          <hr class="primary">
+        </div>
+      </div>
+      <div class="row no-gutter">
+        <div class="col-lg-4 col-sm-6">
+          <a href="http://www.amazon.com/gp/product/0137043295/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0137043295&linkCode=as2&tag=upvotelycom-20&linkId=GFLFGM4I7X2T7ZV3" class="portfolio-box">
+            <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Essential Scrum: A Practical Guide to the Most Popular Agile Process
+                </div>
+                <div class="project-name">
+                  "A great way to get Agile working in the workplace!"
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="http://www.amazon.com/gp/product/0132350882/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0132350882&linkCode=as2&tag=upvotelycom-20&linkId=ZGHBDBTLBXR7UBJX" class="portfolio-box">
+            <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Clean Code: A Handbook of Agile Software Craftsmanship
+                </div>
+                <div class="project-name">
+                  "Every developer should read this."
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="http://www.amazon.com/gp/product/0321278658/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321278658&linkCode=as2&tag=upvotelycom-20&linkId=KIIPIN6DYG4TMB4V" class="portfolio-box">
+            <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Extreme Programming Explained: Embrace Change, 2nd Edition
+                </div>
+                <div class="project-name">
+                  "The father of Agile, understanding EP grants insight into Agile."
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="http://www.amazon.com/gp/product/0321146530/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321146530&linkCode=as2&tag=upvotelycom-20&linkId=EYXLMZWJ6IUS3GWO" class="portfolio-box">
+            <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Test Driven Development: By Example
+                </div>
+                <div class="project-name">
+                  "TDD makes for better software in shorter time."
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="http://amzn.to/1dbncGS" class="portfolio-box">
+            <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Scrum: a Breathtakingly Brief and Agile Introduction
+                </div>
+                <div class="project-name">
+                  "Get more mileage out of your daily scrums."
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a href="http://amzn.to/1dbnkpM" class="portfolio-box">
+            <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+            <div class="portfolio-box-caption">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                  Learning Agile: Understanding Scrum, XP, Lean, and Kanban
+                </div>
+                <div class="project-name">
+                  "A comprehensive review of agile, from multiple perspectives of management and development."
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-info" id="manifesto">
+    <div class="container">
+      <div class="text-center">
+        <h1>Manifesto for Agile Software Development</h1>
+        <hr>
+        <p><strong>Individuals and interactions</strong> over processes and tools</p>
+        <p><strong>Working software</strong> over comprehensive documentation</p>
+        <p><strong>Customer collaboration</strong> over contract negotiation</p>
+        <p><strong>Responding to change</strong> over following a plan</p>
+        <p>That is, while there is value in the items on
+          the right, we value the items on the left more.</p>
+        <p class="text-muted">Kent Beck
+          Mike Beedle
+          Arie van Bennekum
+          Alistair Cockburn
+          Ward Cunningham
+          Martin Fowler
+          James Grenning
+          Jim Highsmith
+          Andrew Hunt
+          Ron Jeffries
+          Jon Kern
+          Brian Marick
+          Robert C. Martin
+          Steve Mellor
+          Ken Schwaber
+          Jeff Sutherland
+        </p>
+        <p class="text-muted"><small><small>&copy; 2001, the above authors
+          this declaration may be freely copied in any form,
+          but only in its entirety through this notice.</small></small></p>
+        <a href="#principles" class="btn btn-primary btn-xl page-scroll">Twelve Principles of Agile Software &raquo;</a>
+      </div>
+    </div>
+  </section>
+
+  <aside class="bg-dark" id="principles">
+    <div class="container text-center">
+      <h2>Twelve principles of agile software</h2>
+      <div class="call-to-action">
+        <p class="text-muted">Our highest priority is to satisfy the customer
+          through early and continuous delivery
+          of valuable software.</p>
+        <p class="text-muted">Welcome changing requirements, even late in
+          development. Agile processes harness change for
+          the customer's competitive advantage.</p>
+        <p class="text-muted">Deliver working software frequently, from a
+          couple of weeks to a couple of months, with a
+          preference to the shorter timescale.</p>
+        <p class="text-muted">Business people and developers must work
+          together daily throughout the project.</p>
+        <p class="text-muted">Build projects around motivated individuals.
+          Give them the environment and support they need,
+          and trust them to get the job done.</p>
+        <p class="text-muted">The most efficient and effective method of
+          conveying information to and within a development
+          team is face-to-face conversation.</p>
+        <p class="text-muted">Working software is the primary measure of progress.</p>
+        <p class="text-muted">Agile processes promote sustainable development.
+          The sponsors, developers, and users should be able
+          to maintain a constant pace indefinitely.</p>
+        <p class="text-muted">Continuous attention to technical excellence
+          and good design enhances agility.</p>
+        <p class="text-muted">Simplicity--the art of maximizing the amount
+          of work not done--is essential.</p>
+        <p class="text-muted">The best architectures, requirements, and designs
+          emerge from self-organizing teams.</p>
+        <p class="text-muted">At regular intervals, the team reflects on how
+          to become more effective, then tunes and adjusts
+          its behavior accordingly.</p>
+      </div>
+    </div>
+  </aside>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="section-heading">Let's Get In Touch!</h2>
+          <hr class="primary">
+          <p>Ready for a more Agile business approach? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+        </div>
+        <div class="col-lg-4 col-lg-offset-2 text-center">
+          <i class="fa fa-phone fa-3x wow bounceIn"></i>
+          <p>801-214-8588</p>
+        </div>
+        <div class="col-lg-4 text-center">
+          <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+          <p><a href="mailto:trent@whatwouldagiledo.com">trent@whatwouldagiledo.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -33,25 +326,14 @@
   <script src="js/jquery.fittext.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/creative.js"></script>
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-  -->
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="app.js"></script>
-  <script src="home/home.js"></script>
-  <script src="components/version/version.js"></script>
-  <script src="components/version/version-directive.js"></script>
-  <script src="components/version/interpolate-filter.js"></script>
+  <script src="js/app.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-62514883-2', 'auto');
     ga('send', 'pageview');
-
   </script>
 </body>
 </html>
