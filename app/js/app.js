@@ -104,7 +104,8 @@ function genAnswers() {
         "Take pride in his work.",
         "Fix something if it is impeding something else.",
         "Shoot for perfection, and encourage (not demand) it in others.",
-        "Find an implementation that works for him and his business's goals and challenges."
+        "Find an implementation that works for him and his business's goals and challenges.",
+        "Be awesome, like you. You're awesome!"
     ];
 }
 
