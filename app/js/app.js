@@ -112,6 +112,7 @@ function genAnswers() {
         "For an outdated Confluence page, either take the time to fix it, or delete it altogether.",
         "Take the team out for lunch at least once a month.",
         "Watch developer  lectures together.",
+        "Hone the concept of devsplaining."
     ];
 }
 
