@@ -111,8 +111,9 @@ function genAnswers() {
         "Take responsibility for a small handful of Confluence pages.",
         "For an outdated Confluence page, either take the time to fix it, or delete it altogether.",
         "Take the team out for lunch at least once a month.",
-        "Watch developer  lectures together.",
-        "Hone the concept of devsplaining."
+        "Watch developer lectures together.",
+        "Hone the practice of devsplaining.",
+        "Find novel ways to use Japanese instead of his native tongue."
     ];
 }
 
