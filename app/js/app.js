@@ -113,7 +113,8 @@ function genAnswers() {
         "Take the team out for lunch at least once a month.",
         "Watch developer lectures together.",
         "Hone the practice of devsplaining.",
-        "Find novel ways to use Japanese instead of his native tongue."
+        "Find novel ways to use Japanese instead of his native tongue.",
+        "Cloudsource UX to realize maximum per-caps."
     ];
 }
 
