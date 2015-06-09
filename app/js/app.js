@@ -114,7 +114,8 @@ function genAnswers() {
         "Watch developer lectures together.",
         "Hone the practice of devsplaining.",
         "Find novel ways to use Japanese instead of his native tongue.",
-        "Cloudsource UX to realize maximum per-caps."
+        "Cloudsource UX to realize maximum per-caps.",
+        "Smile for his passport photo."
     ];
 }
 
