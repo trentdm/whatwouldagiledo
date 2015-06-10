@@ -115,7 +115,8 @@ function genAnswers() {
         "Hone the practice of devsplaining.",
         "Find novel ways to use Japanese instead of his native tongue.",
         "Cloudsource UX to realize maximum per-caps.",
-        "Smile for his passport photo."
+        "Smile for his passport photo.",
+        "Wonder to himself, \"What 'is' Agile anyway...? What do I even mean??\" Then disappear into the woods, forever to live the simple life.",
     ];
 }
 
