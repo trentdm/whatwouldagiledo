@@ -69,7 +69,7 @@ function genAnswers() {
         "Pair back features before sacrificing quality.",
         "Help each other learn new skills.",
         "Find opportunities to exercise new skills.",
-        "Tattoo, \"Skunk works, best works.\", across his chest.",
+        "Tattoo, \"Skunk works, best works\", across his chest.",
         "Make time for himself.",
         "Be sustainable.",
         "Shoot for 40 hour work weeks.",
@@ -117,6 +117,7 @@ function genAnswers() {
         "Cloudsource UX to realize maximum per-caps.",
         "Smile for his passport photo.",
         "Wonder to himself, \"What 'is' Agile anyway...? What do I even mean??\" Then disappear into the woods, forever to live the simple life.",
+        "Shower after exercising."
     ];
 }
 
