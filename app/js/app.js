@@ -117,7 +117,8 @@ function genAnswers() {
         "Cloudsource UX to realize maximum per-caps.",
         "Smile for his passport photo.",
         "Wonder to himself, \"What 'is' Agile anyway...? What do I even mean??\" Then disappear into the woods, forever to live the simple life.",
-        "Shower after exercising."
+        "Shower after exercising.",
+        "Come up with a cool kaizan.",
     ];
 }
 
