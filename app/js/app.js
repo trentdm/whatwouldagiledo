@@ -119,6 +119,7 @@ function genAnswers() {
         "Wonder to himself, \"What 'is' Agile anyway...? What do I even mean??\" Then disappear into the woods, forever to live the simple life.",
         "Shower after exercising.",
         "Come up with a cool kaizan.",
+		"Offer wisdom. Such as, \"If you meet Agile on the road, kill him!\"",
     ];
 }
 
